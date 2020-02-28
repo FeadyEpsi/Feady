@@ -3,3 +3,6 @@ language: java
 os:
   windows
   linux
+
+jdk:
+  oraclejdk8
