@@ -1,11 +1,10 @@
 language: java
 
-os:
-  windows
-  linux
+jdk:
+  oraclejdk8
+
+install:
+  - mvn clean package
 
 notifications:
   slack: feedygroupe:cvLCfv4FnJIDUhutD0JKsqhf
-
-jdk:
-  oraclejdk8
