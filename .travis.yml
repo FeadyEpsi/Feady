@@ -4,8 +4,7 @@ jdk:
   oraclejdk9
 
 install:
-  - mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
-  - mvn clean package
+  - mvn test -B
 
 notifications:
   slack: feedygroupe:cvLCfv4FnJIDUhutD0JKsqhf
