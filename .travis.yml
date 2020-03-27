@@ -5,7 +5,7 @@ jdk:
 
 install:
   - mvn clean 
-  - mvn package -B
+  - mvn package
 
 notifications:
   slack: feedygroupe:cvLCfv4FnJIDUhutD0JKsqhf
