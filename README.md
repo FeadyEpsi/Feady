@@ -1,3 +1,7 @@
-Hello world
+##Team
 
-##Member
+Alessandro Cecotti
+Florentin Dekyndt
+Corentin Delage
+Alexandre Halleux
+Grégory Viandier
