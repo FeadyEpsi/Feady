@@ -4,7 +4,8 @@ jdk:
   oraclejdk11
 
 install:
-  - mvn clean package -B
+  - mvn clean 
+  - mvn package -B
 
 notifications:
   slack: feedygroupe:cvLCfv4FnJIDUhutD0JKsqhf
